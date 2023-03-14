@@ -1,0 +1,12 @@
+  {
+    "manifest_version": 3,
+    "name": "Talk to me",
+    "description": "Replace every man's text in Hebrew to Woman's",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "matches": ["<all_urls>"]
+        }
+      ]
+  }
